@@ -8,6 +8,7 @@ Release/
 *.vcxproj.filters
 *.dir/
 *.sln
+*.user
 install/
 install_manifest.txt
 generated/*
