@@ -39,9 +39,9 @@ option( BGFX_CONFIG_MULTITHREADED       "Build bgfx with multithreaded configura
 option( BGFX_CONFIG_RENDERER_WEBGPU     "Enables the webgpu renderer"                   OFF )
 option( BX_CONFIG_DEBUG                 "Log debug messages (default: on in debug)"     OFF )
 
-set( BGFX_OPENGL_VERSION   ""       CACHE STRING "Specify minimum opengl version" )
-set( BGFX_OPENGLES_VERSION ""       CACHE STRING "Specify minimum OpenGL ES version" )
-set( BGFX_LIBRARY_TYPE     "STATIC" CACHE STRING "Linking type for library" )
+set( BGFX_OPENGL_VERSION   "41"       CACHE STRING "Specify minimum opengl version" )
+set( BGFX_OPENGLES_VERSION "30"       CACHE STRING "Specify minimum OpenGL ES version" )
+set( BGFX_LIBRARY_TYPE     "SHARED" CACHE STRING "Linking type for library" )
 
 set( BGFX_CONFIG_DEFAULT_MAX_ENCODERS             "" CACHE STRING "Specify default maximum encoder count (multithreaded only)" )
 set( BGFX_CONFIG_MAX_DRAW_CALLS                   "" CACHE STRING "Specify maximum draw calls" )
